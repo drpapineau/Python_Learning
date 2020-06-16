@@ -7,7 +7,7 @@ Value5 = input("which color is your horses ")
 
 
 
-print(f'\n\n Once upon a time a warrior named {Value1}\n' + f'Well known in the land for the kill of the {Value2}' )
+print(f'\n\n Once upon a time a warrior named {Value1}' + f'Well known in the land for the kill of the {Value2}\n' )
 
 
 
