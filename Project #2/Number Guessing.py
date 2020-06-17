@@ -17,7 +17,7 @@ while Proceed:
     try:
         Numberguess = int(input("guest the number between 1 and 100:  "))
         if Numberguess == NumberRandom:
-            print(f"Good job you did {PlayerScore} Points")
+            print(f"Good job you did {PlayerScore} Points/n")
             rejouer = input("voulez vous rejouer ? oui ou non ? ")
             if rejouer == "oui":
                 NumberRandom = random.randrange(1,100)
