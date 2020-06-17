@@ -37,5 +37,7 @@ number with the guessed number, to compute the
 difference between the two, and to check whether 
 an actual number was inputted or not.
 
+Project #2 -END- Tuesday 16 June : 22:47
+
 
 
