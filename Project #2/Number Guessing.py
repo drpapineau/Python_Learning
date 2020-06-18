@@ -15,7 +15,7 @@ while Proceed:
     try:
         Numberguess = int(input("guest the number between 1 and 100:  "))
         if Numberguess == NumberRandom:
-            print(f"Good job you did {PlayerScore} Points/n")
+            print(f"Good job you did {PlayerScore} Points \n")
             rejouer = input("voulez vous rejouer ? oui ou non ? ")
             if rejouer == "oui":
                 NumberRandom = random.randrange(1,100)
@@ -23,7 +23,7 @@ while Proceed:
                 PlayerScore = 10
                 Proceed = True
             elif rejouer == "non":
-                print("byebye")
+                print("\nbyebye")
                 Proceed = False
             else:
                 print("mauvaix choix fuck you....")
