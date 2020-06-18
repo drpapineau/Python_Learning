@@ -10,8 +10,6 @@ PlayerScore = 10
 Proceed = True
 
 
-print(NumberRandom)
-
 while Proceed:
     PlayerScore -= 1
     try:
