@@ -11,7 +11,7 @@ Proceed = True
 
 
 while Proceed:
-    PlayerScore -= 1
+    PlayerScore -= 10
     try:
         Numberguess = int(input("guest the number between 1 and 100:  "))
         if Numberguess == NumberRandom:
