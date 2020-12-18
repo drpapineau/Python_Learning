@@ -2,7 +2,7 @@
 #import of a library function
 import random
 
-
+#tatatatat
 #do not forget the style of the variable exempla str or int
 NumberRandom = random.randrange(1,100)
 Numberguess = 0
@@ -33,12 +33,4 @@ while Proceed:
         elif Numberguess < NumberRandom:
             print("the number you are looking for is bigger than the one you enter....Try Again !\n")
     except ValueError:
-                print("not a number you retard fuck")  
-
-
-
-
-
-
-
-
+                print("not a number you retard fuck")
