@@ -6,7 +6,7 @@ import random
 #do not forget the style of the variable exempla str or int
 NumberRandom = random.randrange(1,100)
 Numberguess = 0
-PlayerScore = 10
+PlayerScore = 100
 Proceed = True
 
 
